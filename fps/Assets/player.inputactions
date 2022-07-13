@@ -1,0 +1,74 @@
+{
+    "name": "player",
+    "maps": [
+        {
+            "name": "playermain",
+            "id": "cbb11d59-7f67-46c2-ac38-eb126db2e981",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "6ec839da-a5a8-4d12-9a84-44a8233dc75d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "look",
+                    "type": "Value",
+                    "id": "ded78ab8-38ea-4f41-ab28-4d68c0aee5b7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0918f88-daac-48cd-9ebd-f7e85e67f07b",
+                    "path": "<AndroidGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30e04777-9f86-4f92-9b13-138f171a58e5",
+                    "path": "<Touchscreen>/touch0/radius",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "beccb53d-4ad1-46e2-9e33-05a4640ca6f2",
+                    "path": "<AndroidGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c970bc45-f9f5-4a38-b0bc-62ffcd859d11",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
